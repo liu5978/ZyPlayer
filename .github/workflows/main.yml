@@ -6,7 +6,7 @@ on:
     branches:
       - main
 env：
-  GITHUB_TOKEN：${{secrets.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}}
+  GITHUB_TOKEN：${{secrets.GITHUB_TOKEN}}
       
 jobs:
   release:
