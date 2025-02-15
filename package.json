@@ -5,7 +5,7 @@
   "main": "./out/main/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hiram-Wong/ZyPlayer.git"
+    "url": "git+https://github.com/liu5978/ZyPlayer.git"
   },
   "keywords": [
     "zyplayer",
@@ -14,14 +14,14 @@
     "video"
   ],
   "author": {
-    "name": "Hiram-Wong",
-    "email": "admin@catni.cn"
+    "name": "liu5978",
+    "email": "liubingshuo126@163.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Hiram-Wong/ZyPlayer/issues"
+    "url": "https://github.com/liu5978/ZyPlayer/issues"
   },
-  "homepage": "https://github.com/Hiram-Wong/ZyPlayer#readme",
+  "homepage": "https://github.com/liu5978/ZyPlayer#readme",
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint --ext .vue,.js,.jsx,.ts,.tsx ./ --max-warnings 0",
