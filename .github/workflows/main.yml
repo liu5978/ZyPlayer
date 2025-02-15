@@ -5,9 +5,7 @@ on:
   push:
     branches:
       - main
-env:
-  github_token: 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
-      
+
 jobs:
   release:
     runs-on: ${{ matrix.os }}
@@ -34,7 +32,7 @@ jobs:
         with:
           # GitHub token, automatically provided to the action
           # (No need to define this secret in the repo settings)
-          github_token: ${{ secrets.access_token}}
+          github_token: ${{ secrets.my666}}
           # build_script_name: 'electron:prebuild'
           # If the commit is tagged with a version (e.g. "v1.0.0"),
           # release the app after building
